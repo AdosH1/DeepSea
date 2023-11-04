@@ -12,7 +12,9 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build",
+    "serve": "ts-node ./src",
+    "start": "node ./dist"
   },
   "author": "",
   "license": "ISC"
