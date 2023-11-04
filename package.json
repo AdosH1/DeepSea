@@ -20,8 +20,8 @@
   "scripts": {
     "build": "tsc --build",
     "serve": "ts-node ./src",
-    "start": "node ./dist"
-    "lint": "tsc --noEmit && eslint \"**/*.ts\" --quiet --fix",
+    "start": "node ./dist",
+    "lint": "tsc --noEmit && eslint \"**/*.ts\" --quiet --fix"
   },
   "author": "",
   "license": "ISC"
